@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*-----navbar started-----*/
+#navbarSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #328873;
+    color: white;
+    padding: 0 30px;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+#clrH2{
+    color: #00D916;
+}
+/*-----navbar ended-----*/
+
+/*-----banner started-----*/
+#bannerSection{
+    background-image:url(./banner1.png) ;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+/*-----banner ended-----*/
+
+/*-----about started-----*/
+#aboutSection{
+    padding: 150px;
+    background-color: #E9E9E9;
+    margin-top: 10%;
+}
+
+#aboutTextDiv>h1{
+    font-size: 35px;
+}
+
+#clrH1{
+    color: #00D916;
+}
+
+#aboutMainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutTextDiv>p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 32px;
+    width: 80%;
+}
+
+#aboutImageDiv>img{
+    height: 500px;
+}
+
+#aboutTextDiv>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #00D916;
+    border: none;
+    box-shadow: 0 0 8px 0 gray;
+    border-radius: 5px;
+    color: white;
+}
+/*-----about ended-----*/
+
+/*-----shop started-----*/
+#shopSection{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 25px;
+}
+
+.shopSectionCard{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px 0px gray ;
+    background-color: #00D916;
+    width: 50%;
+    height: 70vh;
+}
+
+.cardImageDiv>img{
+width: 100%;
+}
+
+.cardTextDiv{
+    padding: 20px;
+    background-color: #00D916;
+    height: 30vh;
+}
+
+h4{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.cardTextDiv>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #000000;
+    border: none;
+    box-shadow: 0 0 8px 0 gray;
+    color: white;
+}
+/*-----shop ended-----*/
+
+/*-----button started-----*/
+#button2Section{
+    padding: 5px;
+    margin-top: 3%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#but2{
+    background-color: #00D916;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 100%;
+    border-radius: 20%;
+    box-shadow: 0 0 8px 0 gray;
+    border-radius: 10px;
+}
+
+/*------button ended-----*/
+
+/*-----contact started-----*/
+#contactSaction{
+    padding: 150px;
+    background-color: #E9E9E9;
+    height: 20vh;
+    margin-top: 2%;
+}
+
+#contactSaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contactImage>img{
+    height: 400px;
+}
+
+.formInput>input{
+    height: 3vh;
+    width: 70vh;
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    border-radius: 1%;
+    border: none;
+    font-size: 100%;
+}
+
+#contactButton{
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #00D916;
+    border: none;
+    box-shadow: 0 0 8px 0 gray;
+    border-radius: 10px;
+    color: white;
+}
+/*-----contact ended-----*/
+
+/*-----CR started-----*/
+#copyLink{
+padding: 5px;
+height: 5vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+}
+
+h3{
+    color: white;
+}
+/*-----CR ended-----*/
